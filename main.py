@@ -38,3 +38,6 @@ y = np.array([[0],
               [1],
               [0]])
 
+# Seed random numbers to make calculation deterministic
+np.random.seed(1)
+
